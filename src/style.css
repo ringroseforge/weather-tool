@@ -1,0 +1,26 @@
+body {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+}
+.weather {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
+h1 {
+  box-sizing: border-box;
+  color: #272142;
+  display: block;
+  font-size: 38px;
+  font-weight: 700;
+  height: 48px;
+  line-height: 48px;
+  margin: 20px 0px 10px;
+  margin-block-end: 10px;
+  margin-block-start: 20px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  text-align: left;
+}
