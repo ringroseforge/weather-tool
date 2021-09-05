@@ -18,9 +18,28 @@ body {
 .weather {
   max-width: 600px;
   margin: 30px auto;
-  padding: 30px;
+  padding: 40px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(255, 255, 255);
+  background-origin: padding-box;
+  background-size: auto;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 0px;
+  box-sizing: border-box;
+  color: rgb(135, 135, 135);
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  height: 664.667px;
+  line-height: 24px;
+  text-align: left;
+  text-size-adjust: 100%;
 }
 
 h1 {
