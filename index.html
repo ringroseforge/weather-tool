@@ -15,9 +15,9 @@
     <title>Weather Tool</title>
   </head>
   <body>
-    <div class:"App">
-      <div class:"container">
-        <div class:"Weather">
+    <div id="App">
+      <div id="container">
+        <div id="Weather">
           <img src="images/ringrose-logo.png" class="logo" alt="ringrose logo">
       <form>
         <div class="row">
@@ -29,41 +29,31 @@
           </div>
         </div>
       </form>
-      <div class="WeatherInfo">
-        <div class="row">
-          <div class="col-6">
-            <h1 id="city">Yosemite</h1>
-            <ul>
+            <div>
+              <h1 id="city">Yosemite</h1>
               <li>
-                <span>
-                  "Saturday"
-                  "20"
-                  ":""
-                  "39"
-                </span>
-                ", "
-                "clear sky"
+                  Saturday
+                  20:39
+                 </li><li id="description">
+                clear sky</li>
               </li>
               <li>
-                "Humidity: "
+                Humidity: 
                 <strong>
-                  "72" 
-                  "%"
+                  72
+                  %
                 </strong>
-                ", Wind:"
+                , Wind:
                 <strong>
-                  "2.57"
-                  "km/h"
+                  2.57
+                  km/h
                 </strong>
               </li>
-          </ul>
-      </div>
       <div class="col-6">
-            <div class="temperature-container d-flex justify-content-end">
-              <canvas width="52" height="52">
+            <div id="temperature-container d-flex justify-content-end">
                 <div>
-                  <span id="#temperature">20</span>
-                  <span id="#unit">°C</span>
+                  <span id="temperature">20</span>
+                  <span id="unit">°C</span>
                 </div>
             </div>
           </div>

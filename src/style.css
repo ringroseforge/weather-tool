@@ -31,6 +31,13 @@ body {
   text-align: left;
   text-size-adjust: 100%;
 }
+.temperature {
+  display: flex;
+}
+
+.row {
+  display: flex;
+}
 
 h1 {
   box-sizing: border-box;
@@ -46,4 +53,15 @@ h1 {
   margin-inline-end: 0px;
   margin-inline-start: 0px;
   text-align: left;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
 }
