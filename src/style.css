@@ -38,14 +38,13 @@ body {
 .row {
   display: flex;
 }
-
 h1 {
-  box-sizing: border-box;
   color: #272142;
-  display: block;
   font-size: 38px;
   font-weight: 700;
   height: 48px;
+  box-sizing: border-box;
+  display: block;
   line-height: 48px;
   margin: 20px 0px 10px;
   margin-block-end: 10px;
@@ -56,12 +55,17 @@ h1 {
 }
 
 ul {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  color: rgb(135, 135, 135);
+  font-size: 16px;
 }
 li {
   list-style: none;
   padding: 0;
   margin: 0;
   text-transform: capitalize;
+  color: rgb(135, 135, 135);
+  font-size: 16px;
 }
