@@ -11,11 +11,9 @@ body {
   padding: 40px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background-attachment: scroll;
   background-clip: border-box;
   background-color: rgb(255, 255, 255);
   background-origin: padding-box;
-  background-size: auto;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   border-top-left-radius: 16px;
@@ -71,7 +69,10 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
-
+.weather-app-wrapper {
+  max-width: 700px;
+  margin: 50px auto;
+}
 .weather-temperature .active {
   color: rgb(135, 135, 135);
   cursor: default;
