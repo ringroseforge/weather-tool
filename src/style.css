@@ -65,10 +65,17 @@ li {
   list-style: none;
   padding: 0;
   margin: 0;
-
   color: rgb(135, 135, 135);
   font-size: 16px;
 }
 li:first-letter {
   text-transform: capitalize;
+}
+
+.weather-temperature .active {
+  color: rgb(135, 135, 135);
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
