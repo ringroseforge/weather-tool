@@ -29,21 +29,34 @@
           </div>
         </div>
       </form>
-              <h1 id="city">Yosemite</h1>
-              Last updated: <li id="date"></li>
+              <h1 id="city"></h1>
+              <ul>
+              <li>Last updated: <span id="date"></span></li>
                  <li id="description"></li>
-                Humidity: <strong><span id="humidity"></span>%</strong>
-                , Wind: <strong><span id="wind"></span> km/h</strong>
+                 </ul>
+                 </div>
+                 <div class="row">
+                   <div class="col=6">
+                     <div class="clearfix weather-temperature">
+                       <img src="" alt="clear"class="float-left"/>
+                   <div class="float-left">
+                  <strong id="temperature"></strong>
+                  <span id="unit">°C</span>
+                  </div> </div> </div> 
+                <div class="col-6">
+                  <ul>
+               <li> Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
+              </ul>
+              </div>
+               
       <div class="col-6">
             <div id="temperature-container d-flex justify-content-end">
-                <div>
-                  <span id="temperature">20</span>
-                  <span id="unit">°C</span>
+                
                 </div>
             </div>
           </div>
         </div>
-      </div>
       <div class="WeatherForecast row">
         <div class="col">
           <div class="WeatherForecastPreview">
