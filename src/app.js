@@ -2,8 +2,20 @@ function formatDate(timestamp) {
   let date = new Date(timestap);
   let hours = timstamp.getHours();
   let minutes = date.getMinutes();
-  let day = date.getDay();
-  return "${day}";
+  if (minutes < 10) {
+    minutes = `0${hours}`;
+  }
+  let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  let day = days[date.getDay()];
+  return `${day} ${hours}:${minutes}`;
 }
 
 function displayTemperature(response) {
