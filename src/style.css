@@ -11,9 +11,7 @@ body {
   height: 150px;
   max-width: 150px;
 }
-.overview {
-  margin-bottom: 20px;
-}
+
 .weather {
   max-width: 600px;
   margin-top: 0px;
@@ -23,10 +21,7 @@ body {
   background-clip: border-box;
   background-color: rgb(255, 255, 255);
   background-origin: padding-box;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
+  border-radius: 16px;
   box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 0px;
   color: rgb(135, 135, 135);
   display: block;
@@ -59,11 +54,6 @@ h1 {
 ul {
   padding: 0;
   margin: 0;
-  text-transform: capitalize;
-  color: rgb(135, 135, 135);
-  font-size: 16px;
-  display: block;
-  list-style-type: disc;
 }
 div {
   display: block;
@@ -72,8 +62,11 @@ li {
   list-style: none;
   padding: 0;
   margin: 0;
+
   color: rgb(135, 135, 135);
   font-size: 16px;
+  font-weight: 100px;
+  line-height: 19px;
 }
 li:first-letter {
   text-transform: capitalize;
@@ -81,11 +74,33 @@ li:first-letter {
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(135, 135, 135);
+  font-size: 70px;
+  line-height: 1px;
+  font-weight: 400px;
+}
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
 }
 .weather-temperature .active {
   color: rgb(135, 135, 135);
