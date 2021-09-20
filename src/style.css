@@ -1,5 +1,13 @@
 body {
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  padding: 15px 275px;
+}
+.container {
+  max-width: 1140;
+  padding: 0px 10px 15px 10px;
+  margin: 5px;
+  background-color: #f5f1fe;
+  align-items: center;
 }
 .logo {
   height: 150px;
