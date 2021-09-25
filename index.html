@@ -18,39 +18,51 @@
       <div class="container">
         <div class="weather-app-wrapper">
         <div class="weather-app">
+          <div class="last-updated"><small><strong> Last updated: </strong><span id="date"></span></small></div>
           <img src="images/ringrose-logo.png" class="logo" alt="ringrose logo">
-      <form id="search-form" class="mb-4">
+      <form id="search-form" class="mb-3">
         <div class="row">
-          <div class="col-sm col-md mb-2">
+          <div class="col-9">
             <input type="search" placeholder="Enter a city.." class="form-control" id="city-input" autocomplete="off">
           </div>
-          <div class="col-sm col-md">
-            <input type="submit" class="btn btn-dark w-100" value="Search">
+          <div class="col-3">
+            <input type="submit" class="btn btn-dark w-100" value="Search"/>
           </div>
         </div>
       </form>
       <div class="overview">
-              <h1 id="city"></h1>
+        <h1 id="city"></h1>
               <ul>
-                <li>Last updated: <span id="date"></span></li>
+                <li> 
                 <li id="description"></li>
-</ul>
-                 </div>
-                 <div class="row">
-                   <div class="col-6">
-                     <div class="clearfix weather-temperature">
-                       <img src="" alt=""id="icon"class="float-left"/>
-                   <div class="float-left">
-                  <strong id="temperature"></strong>
-                  <span id="units"><a href="#" id="celsius-link" class="active">°C</a> | 
-                    <a href="#" id="fahrenheit-link">°F</a></span>
-                  </div> </div> </div> 
-                <div class="col-6">
-                  <ul>
-               <li>Humidity: <span id="humidity"></span>%</li>
-               <li>Wind: <span id="wind"></span> km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
-              </div>           
+            </div>
+                <div class="row">
+                  <div class="col-6">
+                      <div class="clearfix weather-temperature">
+                       <img src="" alt="" id="icon" class="float-left"/>
+                       <div class="float-left">
+                          <strong id="temperature"></strong>
+                          <span class="units">
+                            <a href="#" id="celsius-link" class="active">°C</a> | 
+                            <a href="#" id="fahrenheit-link">°F</a></span>
+                        </div>           
+                      </div>
+                  </div>
+             <div class="weather-forecast">
+               <div class="row">
+                 <div class="col-2">
+                   <div class="weather-forecast-date">Thursday</div>
+                 <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="" width="42"/>
+                 <div class="weather-forecast-temperature">
+                   <span class="weather-forecast-temperature-max">
+                     18</span> 
+                   <span class="weather-forecast-temperature-min">
+                     12</span>
+                    </div>
+               </div>
              </div>
     <small>
       <a href="https://github.com/ringroseforge/weather-tool" target="_blank">Open-source code</a>
