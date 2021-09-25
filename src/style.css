@@ -1,5 +1,5 @@
 body {
-  padding: 20px 500px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -82,18 +82,15 @@ li:first-letter {
 }
 .weather-forecast-date {
   font-size: 16px;
-  margin-top: 16px;
-  color: black;
-  opacity: 0.5;
-}
-.weather-forecast-temperature-max {
-  font-size: 12px;
-}
-.weather-forecast-temperature-min {
-  font-size: 12px;
   opacity: 0.5;
 }
 
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
 .last-updated {
   text-align: right;
 }
