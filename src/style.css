@@ -29,14 +29,18 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+#search-form {
+  padding: 15px 20px;
+}
 .logo {
-  height: 170px;
-  max-width: 170px;
+  max-width: 150px;
+  display: block;
 }
 
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  max-height: 100px;
+  margin: 20px auto;
 }
 .weather-app {
   padding: 20px;
@@ -93,4 +97,7 @@ li:first-letter {
 }
 .last-updated {
   text-align: right;
+}
+.footer {
+  text-align: center;
 }
