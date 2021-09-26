@@ -66,7 +66,7 @@ function displayForecast(response) {
 
 function getForecast(coordinates) {
   let apiKey = "4f53bb6fbafe6f11bafb0801af7db36a";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayForecast);
 }
 
@@ -98,7 +98,7 @@ function displayTemperature(response) {
 
 function search(city) {
   let apiKey = "4f53bb6fbafe6f11bafb0801af7db36a";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(displayTemperature);
 }
 
