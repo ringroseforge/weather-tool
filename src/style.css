@@ -47,12 +47,11 @@ li:first-letter {
   border: 1px solid #7dccab;
   border-radius: 10px;
   border-spacing: 100px;
+  border-width: 3px;
 }
 
 .overview {
   margin-bottom: 20px;
-
- 
 }
 
 .weather-temperature img {
@@ -75,7 +74,7 @@ li:first-letter {
 }
 
 .weather-temperature .active {
-  color: #1C1F23
+  color: #1c1f23;
   cursor: default;
 }
 .weather-temperature .active:hover {
